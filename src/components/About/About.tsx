@@ -9,6 +9,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import aboutMeImage from "../../assets/Profile-AboutMe-Image.png"
 
 
 export function About(){
@@ -16,7 +17,7 @@ export function About(){
     <Container id="sobre">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>Sobre mim</h2>
+          <h2>Sobre mi</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>Me chamo João Túlio, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
@@ -31,7 +32,7 @@ export function About(){
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Aqui están mis principales habilidades:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
 
@@ -70,18 +71,18 @@ export function About(){
           </ScrollAnimation>
           </div>
 
-          <div className="hability">
+          {/* <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
             <img src={typescriptIcon} alt="Typescript" />
           </ScrollAnimation>
-          </div>
+          </div> */}
 
 
         </div>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Imagem de perfil" />
+          <img src={aboutMeImage} alt="Imagem de perfil" />
         </ScrollAnimation>
       </div>
     </Container>
