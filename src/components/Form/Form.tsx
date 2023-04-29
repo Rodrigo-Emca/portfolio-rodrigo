@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('myyozglw')
+  const [state, handleSubmit] = useForm('xyyaoyob')
 
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
@@ -22,7 +22,7 @@ export function Form() {
 
   useEffect(() => {
     if (state.succeeded) {
-      toast.success('Email enviado com sucesso!', {
+      toast.success('Email enviado con éxito!', {
         position: toast.POSITION.BOTTOM_LEFT,
         pauseOnFocusLoss: false,
         closeOnClick: true,
@@ -34,13 +34,13 @@ export function Form() {
   if (state.succeeded) {
     return (
       <ContainerSucces>
-        <h3>Obrigado por entrar em contato!</h3>
+        <h3>¡Gracias por contactarte!</h3>
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          Voltar ao topo
+          Volver
         </button>
         <ToastContainer />
       </ContainerSucces>
@@ -49,7 +49,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Entre em contato a partir do formulário abaixo</h2>
+      <h2>Entra en contacto con el siguiente formulario</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -64,7 +64,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Deixe sua mensagem"
+          placeholder="Escribe tu mensaje"
           id="message"
           name="message"
           onChange={(e) => {
