@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/illustration.svg"
+import Illustration from "../../assets/Mi proyecto.png"
 import { NavHashLink } from "react-router-hash-link"
 export function Hero(){
   return(
@@ -18,6 +18,9 @@ export function Hero(){
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">Soy Programador Web con conocimientos en HTML5, CSS3, JavaScript.</p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+          <p className="small-resume">Tambien desarrollo Mobile Apps con la tecnología React Native.</p>
         </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
