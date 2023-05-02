@@ -1,9 +1,8 @@
 import { Container } from "./styles";
 import githubIcon from "../../assets/github-icon.svg"
+import youTubeIcon from "../../assets/youtube-icon2.svg"
 import externalLinkIcon from "../../assets/external-link-icon.svg"
 import ScrollAnimation from "react-animate-on-scroll";
-
-import matearImage from '../../assets/matear-imagen.jpg'
 
 export function Portfolio(){
   return(
@@ -15,7 +14,9 @@ export function Portfolio(){
       <ScrollAnimation animateIn="flipInX">
         <div className="project">
           <header>
-          <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+          <a href="https://mate-ar.vercel.app/home">
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Go to MateAr</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </a> 
           <div className="project-links">
             <a href="https://github.com/Rodrigo-Emca/matear-front" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" />
@@ -44,7 +45,9 @@ export function Portfolio(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <a href="https://minga-nine.vercel.app/">
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Go to Minga</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </a> 
             <div className="project-links">
               <a href="https://github.com/Rodrigo-Emca/Minga" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="GitHub" />
@@ -73,7 +76,9 @@ export function Portfolio(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <a href="https://rodrigo-emca.github.io/Happy-Tails---Petshop/index.html">
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Go to Happy Tails PetShops</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </a> 
             <div className="project-links">
               <a href="https://github.com/Rodrigo-Emca/Happy-Tails---Petshop" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="GitHub" />
@@ -101,8 +106,13 @@ export function Portfolio(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <a href="https://www.youtube.com/watch?v=_kAQABpZApk">
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Watch MateAr on You</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </a> 
             <div className="project-links">
+              <a href="https://www.youtube.com/watch?v=_kAQABpZApk" target="_blank" rel="noreferrer">
+                <img src={youTubeIcon} alt="Visitar site" />
+              </a>
               <a href="https://github.com/Rodrigo-Emca/matear_mobile" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visitar site" />
               </a>
@@ -125,7 +135,9 @@ export function Portfolio(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <a href="">
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </a> 
             <div className="project-links">
               <a href="https://github.com/Rodrigo-Emca/matear_mobile" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visitar site" />
@@ -149,7 +161,9 @@ export function Portfolio(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <a href="https://rodrigo-emca.github.io/amazing_events/index.html">
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Go to Amazing Events</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </a> 
             <div className="project-links">
               <a href="https://github.com/Rodrigo-Emca/amazing_events" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="GitHub" />
