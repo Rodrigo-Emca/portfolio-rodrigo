@@ -15,7 +15,6 @@ const Form = () => {
     email: "",
     subject: "",
     message: "",
-    access_key: "4f412a8f-0a11-4ba9-8e37-e12661f36602",
   });
 
   const handleChange = (e) => {
@@ -30,7 +29,7 @@ const Form = () => {
 
     const data = JSON.stringify(formData);
 
-    fetch("https://api.web3forms.com/submit", {
+    fetch("https://formspree.io/f/xyyaoyob", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -57,7 +56,8 @@ const Form = () => {
 
   return (
     <motion.form
-      action=""
+      action="https://formspree.io/f/xyyaoyob"
+      method="POST"
       ref={ref}
       className="contactForm"
       initial={{ x: "-10vw", opacity: 0 }}
