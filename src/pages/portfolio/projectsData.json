@@ -14,8 +14,8 @@
     "image": "./projectImages/matear.png",
     "technologies": "React Native | Node | MongoDB | Express",
     "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
-    "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "github": "https://github.com/Rodrigo-Emca/mobile-minga-cabrera",
+    "deployed": "",
     "bgcolor": "#29cbe0",
     "id": "2"
   },
@@ -24,8 +24,8 @@
     "image": "./projectImages/matear.png",
     "technologies": "React | CSS | Node | MongoDB | Express",
     "description": "Team Dashboard is a Node command-line application that takes in information about employees to generate a dynamic HTML web page.",
-    "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "github": "https://github.com/Rodrigo-Emca/matear-front",
+    "deployed": "https://mate-ar.vercel.app/home",
     "bgcolor": "#6c4bf4",
     "id": "3"
   },
@@ -34,8 +34,8 @@
     "image": "./projectImages/matear.png",
     "technologies": "JS | HTML | CSS",
     "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
-    "github": "https://github.com/mdyeates/coding-quiz",
-    "deployed": "https://mdyeates.github.io/coding-quiz/",
+    "github": "https://github.com/Rodrigo-Emca/matear_mobile",
+    "deployed": "https://youtu.be/_kAQABpZApk",
     "bgcolor": "#f85781",
     "id": "4"
   },
