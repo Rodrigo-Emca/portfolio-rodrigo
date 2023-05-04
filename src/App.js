@@ -8,7 +8,7 @@ function App() {
     email: "ContactoRodrigoCabrera@gmail.com",
     availability: "Open for work",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "I love looking for solutions to problems 💭. That is why I enjoy programming so much, because it allows me to think and create to solve a need. I am a detail 🔎 and I always focus on getting everything to work correctly 🎯. When I start a task, I do my best to ensure that every detail is of high quality and that the solution is effective. 💭",
   };
 
   return (
