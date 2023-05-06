@@ -2,7 +2,7 @@
   {
     "title": "MINGA",
     "image": "./projectImages/minga.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
+    "description": "MINGA is a website made for reading mangas. Users can register and have their own account, where Mangas and Comics can be read. Also, there is an option to publish, edit and delete a manga.",
     "technologies": "React | CSS | Node | MongoDB | Express",
     "github": "https://github.com/Rodrigo-Emca/Minga",
     "deployed": "https://minga-nine.vercel.app/",
