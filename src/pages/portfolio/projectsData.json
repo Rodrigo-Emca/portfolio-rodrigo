@@ -11,11 +11,11 @@
   },
   {
     "title": "Minga - Mobile",
-    "image": "./projectImages/matear.png",
+    "image": "./projectImages/minga_mobile.png",
     "technologies": "React Native | Node | MongoDB | Express",
     "description": "MINGA Mobile is a smartphone app created for reading manga. The user will be able to register and enjoy a variety of manga.",
     "github": "https://github.com/Rodrigo-Emca/mobile-minga-cabrera",
-    "deployed": "",
+    "deployed": "https://youtu.be/VPFrr80xfT8",
     "bgcolor": "#29cbe0",
     "id": "2"
   },
@@ -31,7 +31,7 @@
   },
   {
     "title": "MateAr - Mobile",
-    "image": "./projectImages/matear.png",
+    "image": "./projectImages/matear_mobile.png",
     "technologies": "React Native | Node | MongoDB | Express",
     "description": "MateAr is a mobile app for an e-commerce created for an Argentine venture, dedicated to the sale of items related to the world of mate. Here you will find a variety of products, whose search is facilitated by a search by text and categories. Also, the shopping cart option is included, and the option to buy with credit, debit and MercadoPago cards.",
     "github": "https://github.com/Rodrigo-Emca/matear_mobile",
