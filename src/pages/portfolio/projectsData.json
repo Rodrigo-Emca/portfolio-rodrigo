@@ -60,5 +60,16 @@
     "deployed": "https://rodrigo-emca.github.io/amazing_events/index.html",
     "bgcolor": "#3e67ff",
     "id": "6"
+  },
+
+  {
+    "title": "Calculator",
+    "image": "./projectImages/calculator.png",
+    "technologies": "HTML | CSS | JavaScript",
+    "description": "This is a calculator made with HTML, CSS and JavaScript.",
+    "github": "https://github.com/Rodrigo-Emca/calculadora",
+    "deployed": "https://rodrigo-emca.github.io/calculadora/",
+    "bgcolor": "#f37737",
+    "id": "7"
   }
 ]
