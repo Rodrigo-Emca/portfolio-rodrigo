@@ -74,7 +74,7 @@
   },
   {
     "title": "Tic Tac Toe Game",
-    "image": "./projectImages/minga_mobile.png",
+    "image": "./projectImages/tictactoegame.png",
     "technologies": "React | CSS ",
     "description": "Tic Tac Toe game (también conocido como TaTeTi, en español) is the classic game for two players: Choose X or O, and try to win the match!",
     "github": "https://github.com/Rodrigo-Emca/tic_tac_toe",
