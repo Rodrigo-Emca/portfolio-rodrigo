@@ -6,3 +6,4 @@ Proyectos incluidos:
 * Minga Mobile
 * MateAr (E-Commerce)
 * MateAr Mobile 
+* Happy Tails (PetShop)
