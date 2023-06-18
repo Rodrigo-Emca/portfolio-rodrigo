@@ -7,3 +7,4 @@ Proyectos incluidos:
 * MateAr (E-Commerce)
 * MateAr Mobile 
 * Happy Tails (PetShop)
+* Proyectos HTML, CSS y JavaScript: Calculadora, TicTacToe.
