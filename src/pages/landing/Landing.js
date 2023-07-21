@@ -16,7 +16,7 @@ const Landing = ({ name }) => {
       position: "absolute",
       bottom: "0",
       right: "0",
-      opacity: "0.3",
+      opacity: "0.9",
       mixBlendMode: "lighten",
       height: "45%",
     },
