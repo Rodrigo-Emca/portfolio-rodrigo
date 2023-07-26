@@ -18,7 +18,7 @@ const Landing = ({ name }) => {
       right: "0",
       opacity: "1",
       mixBlendMode: "lighten",
-      height: "45%",
+      height: "50%",
     },
 
     textContainer: {
@@ -66,7 +66,7 @@ const Landing = ({ name }) => {
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
+          animate={{ opacity: 0.9 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
