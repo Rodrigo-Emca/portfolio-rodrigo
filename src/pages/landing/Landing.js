@@ -18,7 +18,7 @@ const Landing = ({ name }) => {
       right: "0",
       opacity: "1",
       mixBlendMode: "lighten",
-      height: "50%",
+      height: "45%",
     },
 
     textContainer: {
