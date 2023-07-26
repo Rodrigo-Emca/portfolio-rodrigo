@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/Cabrera Rodrigo - FullStack MERN developer.pdf";
+import resume from "../pages/about/CabreraRodrigo-FullStackMERNdeveloper.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
