@@ -69,7 +69,7 @@
     "description": "This is a calculator made with HTML, CSS and JavaScript.",
     "github": "https://github.com/Rodrigo-Emca/calculadora",
     "deployed": "https://rodrigo-emca.github.io/calculadora/",
-    "bgcolor": "#f37737",
+    "bgcolor": "#ec7063",
     "id": "7"
   },
   {
@@ -79,7 +79,7 @@
     "description": "Tic Tac Toe game (también conocido como TaTeTi, en español) is the classic game for two players: Choose X or O, and try to win the match!",
     "github": "https://github.com/Rodrigo-Emca/tic_tac_toe",
     "deployed": "https://tic-tac-toe-roemca-game.vercel.app/",
-    "bgcolor": "#29cbe0",
+    "bgcolor": "#58d68d",
     "id": "8"
   }
 ]
