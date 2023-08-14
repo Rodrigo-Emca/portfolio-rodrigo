@@ -63,6 +63,16 @@
   },
 
   {
+    "title": "PokéQuiz | Juego de preguntas y respuestas",
+    "image": "./projectImages/pokequiz.png",
+    "technologies": "React | JavaScript | Tailwind",
+    "description": "Quiz game. How much do you know about Pokémon? Take this quiz and find out. This app was created with React, the styles are done with Tailwind, and all the questions were created in a data.js file.",
+    "github": "https://github.com/Rodrigo-Emca/poke_quiz",
+    "deployed": "https://poke-quiz-tau.vercel.app/",
+    "bgcolor": "#f37737",
+    "id": "7"
+  },
+  {
     "title": "Calculator",
     "image": "./projectImages/calculator.png",
     "technologies": "HTML | CSS | JavaScript",
@@ -70,7 +80,7 @@
     "github": "https://github.com/Rodrigo-Emca/calculadora",
     "deployed": "https://rodrigo-emca.github.io/calculadora/",
     "bgcolor": "#ec7063",
-    "id": "7"
+    "id": "8"
   },
   {
     "title": "Tic Tac Toe Game",
@@ -80,6 +90,6 @@
     "github": "https://github.com/Rodrigo-Emca/tic_tac_toe",
     "deployed": "https://tic-tac-toe-roemca-game.vercel.app/",
     "bgcolor": "#58d68d",
-    "id": "8"
+    "id": "9"
   }
 ]
