@@ -2,7 +2,10 @@
 
 /* --- VARIABLES --- */
 :root {
-  --bg-color:  #212f3c  ;
+  /* --bg-color:  #212f3c; */
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 20%, rgba(7,58,129,1) 85%);
+  background-attachment: fixed;
   --hl-color: #009e66;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
@@ -130,6 +133,7 @@ header {
 .links.open {
   display: block;
   animation: slideDown 0.5s ease-in-out forwards;
+  background-color: #020024;
 }
 
 .dropdown-toggle {

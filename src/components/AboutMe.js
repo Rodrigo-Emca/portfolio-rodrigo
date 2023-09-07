@@ -1,9 +1,9 @@
-import aboutMeImg from "../images/aboutme.png";
+import aboutMeImg from "../images/profilePicture.jpeg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/CabreraRodrigo-FullStackDeveloper.pdf";
+import resume from "../pages/about/CabreraRodrigo-FullStackMERNdeveloper.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -51,7 +51,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
         >
           <div className="contentContainer">
             <h4>Nice to meet you</h4>
-            <h5>Full Stack MERN Developer who creates digital experiences!</h5>
+            <h5>I'm a Full Stack MERN Developer who creates digital experiences!</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
