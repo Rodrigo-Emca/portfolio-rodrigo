@@ -1,9 +1,9 @@
-import aboutMeImg from "../images/aboutme.png";
+import aboutMeImg from "../images/profilePicture.jpeg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/CabreraRodrigo-FullStackDeveloper.pdf";
+import resume from "../pages/about/CabreraRodrigo-FullStackMERNdeveloper.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
