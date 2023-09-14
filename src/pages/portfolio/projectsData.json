@@ -3,7 +3,7 @@
     "title": "MINGA",
     "image": "./projectImages/minga.png",
     "description": "MINGA is a website created for reading and enjoying manga. Users will be able to register, log in and read the manga they want. Also, if there are companies that want to post their products, they can do so, having access to edit and delete their manga.",
-    "technologies": "React | CSS | Node | MongoDB | Express",
+    "technologies": "React | CSS | Node.js | MongoDB | Express",
     "github": "https://github.com/Rodrigo-Emca/Minga",
     "deployed": "https://minga-nine.vercel.app/",
     "bgcolor": "#f37737",
@@ -12,7 +12,7 @@
   {
     "title": "Minga - Mobile",
     "image": "./projectImages/minga_mobile.png",
-    "technologies": "React Native | Node | MongoDB | Express",
+    "technologies": "React Native | Node.js | MongoDB | Express",
     "description": "MINGA Mobile is a smartphone app created for reading manga. The user will be able to register and enjoy a variety of manga.",
     "github": "https://github.com/Rodrigo-Emca/mobile-minga-cabrera",
     "deployed": "https://youtu.be/VPFrr80xfT8",
@@ -22,7 +22,7 @@
   {
     "title": "MateAr",
     "image": "./projectImages/matear.png",
-    "technologies": "React | CSS | Node | MongoDB | Express",
+    "technologies": "React | CSS | Node.js | MongoDB | Express",
     "description": "MateAr is an e-commerce created for an Argentine venture, dedicated to the sale of items related to the world of mate. Here you will find a variety of products, whose search is facilitated by a search by text and categories. Also, the shopping cart option is included, and the option to buy with credit, debit and MercadoPago cards.",
     "github": "https://github.com/Rodrigo-Emca/matear-front",
     "deployed": "https://mate-ar.vercel.app/home",
@@ -32,12 +32,23 @@
   {
     "title": "MateAr - Mobile",
     "image": "./projectImages/matear_mobile.png",
-    "technologies": "React Native | Node | MongoDB | Express",
+    "technologies": "React Native | Node.js | MongoDB | Express",
     "description": "MateAr is a mobile app for an e-commerce created for an Argentine venture, dedicated to the sale of items related to the world of mate. Here you will find a variety of products, whose search is facilitated by a search by text and categories. Also, the shopping cart option is included, and the option to buy with credit, debit and MercadoPago cards.",
     "github": "https://github.com/Rodrigo-Emca/matear_mobile",
     "deployed": "https://youtu.be/_kAQABpZApk",
     "bgcolor": "#f85781",
     "id": "4"
+  },
+
+  {
+    "title": "Fundación Pescar: 20 aniversario",
+    "image": "./projectImages/pescarAniversario.png",
+    "technologies": "React Native | JavaScript | Tailwind",
+    "description": "Website built for the 20th anniversary of the Pescar Argentina Foundation. I was in charge of the FrontEnd and the trivia game experience, where React, JavaScript and Tailwind were used.",
+    "github": "https://github.com/Rodrigo-Emca/20aniversario-pescar",
+    "deployed": "https://aniversariopescar.com.ar/",
+    "bgcolor": "#58d68d",
+    "id": "5"
   },
 
   {
@@ -48,7 +59,7 @@
     "github": "https://github.com/Rodrigo-Emca/Happy-Tails---Petshop",
     "deployed": "https://rodrigo-emca.github.io/Happy-Tails---Petshop/index.html",
     "bgcolor": "#ffcc33",
-    "id": "5"
+    "id": "6"
   },
 
   {
@@ -59,7 +70,7 @@
     "github": "https://github.com/Rodrigo-Emca/amazing_events",
     "deployed": "https://rodrigo-emca.github.io/amazing_events/index.html",
     "bgcolor": "#3e67ff",
-    "id": "6"
+    "id": "7"
   },
 
   {
@@ -70,7 +81,7 @@
     "github": "https://github.com/Rodrigo-Emca/poke_quiz",
     "deployed": "https://poke-quiz-tau.vercel.app/",
     "bgcolor": "#f37737",
-    "id": "7"
+    "id": "8"
   },
   {
     "title": "Calculator",
@@ -80,7 +91,7 @@
     "github": "https://github.com/Rodrigo-Emca/calculadora",
     "deployed": "https://rodrigo-emca.github.io/calculadora/",
     "bgcolor": "#ec7063",
-    "id": "8"
+    "id": "9"
   },
   {
     "title": "Tic Tac Toe Game",
@@ -90,6 +101,6 @@
     "github": "https://github.com/Rodrigo-Emca/tic_tac_toe",
     "deployed": "https://tic-tac-toe-roemca-game.vercel.app/",
     "bgcolor": "#58d68d",
-    "id": "9"
+    "id": "10"
   }
 ]
