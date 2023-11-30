@@ -53,7 +53,7 @@
 
   {
     "title": "ECOS",
-    "image": "./projectImages/ecosscreen",
+    "image": "./projectImages/ecosscreen.png",
     "technologies": "Next.js | React | Tailwind | MongoDB | Socket.IO",
     "description": "Ecos is a website created for people to learn, be informed and share about home cultivation. It also offers garden organization, chat and sharing functions with other app users.",
     "github": "https://github.com/Rodrigo-Emca/ecos",
