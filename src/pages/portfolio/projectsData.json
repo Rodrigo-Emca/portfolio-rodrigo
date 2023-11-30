@@ -46,7 +46,7 @@
     "technologies": "React Native | JavaScript | Tailwind",
     "description": "Website built for the 20th anniversary of the Pescar Argentina Foundation. I was in charge of the FrontEnd and the trivia game experience, where React, JavaScript and Tailwind were used.",
     "github": "https://github.com/Rodrigo-Emca/20aniversario-pescar",
-    "deployed": "https://aniversariopescar.com.ar/",
+    "deployed": "https://fundacion-pescar20aniversario.vercel.app/",
     "bgcolor": "#58d68d",
     "id": "5"
   },
