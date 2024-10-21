@@ -9,4 +9,4 @@ Proyectos incluidos:
 * Happy Tails (PetShop)
 * Amazing Events (HTML, CSS, y JS)
 * Proyectos HTML, CSS y JavaScript: Calculadora, TicTacToe.
-* Nuevo Proyecto.
+* Nuevo Proyecto y sincronización.
