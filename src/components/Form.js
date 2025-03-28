@@ -9,6 +9,7 @@ const Form = () => {
   });
 
   const [success, setSuccess] = useState(false);
+  const [showModal, setShowModal] = useState(false); // Nuevo estado para controlar el modal
 
   const [formData, setFormData] = useState({
     name: "",
@@ -29,7 +30,7 @@ const Form = () => {
 
     const data = JSON.stringify(formData);
 
-    fetch("https://formspree.io/f/xyyaoyob", {
+    fetch("https://formspree.io/f/xrbpaegg", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -40,23 +41,26 @@ const Form = () => {
       .then((res) => res.json())
       .then((data) => {
         setSuccess(true);
+        setShowModal(true); // Mostrar el modal de éxito
+
         setFormData({
-          ...formData,
           name: "",
           email: "",
           subject: "",
           message: "",
         });
+
+        // Ocultar el modal después de 3 segundos
         setTimeout(() => {
-          setSuccess(false);
-        }, 3000);
+          setShowModal(false);
+        }, 5000);
       })
       .catch((err) => console.log(err));
   };
 
   return (
     <motion.form
-      action="https://formspree.io/f/xyyaoyob"
+      action="https://formspree.io/f/xrbpaegg"
       method="POST"
       ref={ref}
       className="contactForm"
@@ -117,6 +121,16 @@ const Form = () => {
       <div className="col-12 formGroup formSubmit">
         <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
       </div>
+
+      {/* Modal de éxito */}
+      {showModal && (
+        <div className="modal">
+          <div className="modal-content">
+            <h4>Message Sent</h4>
+            <p>Your message has been successfully sent!</p>
+          </div>
+        </div>
+      )}
     </motion.form>
   );
 };
