@@ -50,7 +50,7 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("I'm a Full Stack MERN Developer")
+                .typeString("I'm a Full Stack Developer")
                 .pauseFor(1500)
                 .deleteChars(25)
                 .typeString("Mobile Developer")
